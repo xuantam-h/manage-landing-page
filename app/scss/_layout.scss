@@ -1,0 +1,18 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main-nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    li a{
+        color:$dkblue;
+        text-decoration: none;
+        font-weight: 500;
+    }
+}
+

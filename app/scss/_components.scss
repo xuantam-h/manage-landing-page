@@ -1,0 +1,16 @@
+.btn{
+    padding:1.25rem 2rem;
+    display: block;
+    text-decoration: none;
+    border-radius:2rem;
+    font-weight: 500;
+
+    @media (min-width:$desktop){
+        display: inline-block;
+    }
+
+    &-color{
+        background:$primary-red;
+        color:$white;
+    }
+}
